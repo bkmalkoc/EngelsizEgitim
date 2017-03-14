@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/alfabearka"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnSaatler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="187dp"
+        android:layout_marginTop="214dp"
+        android:background="@drawable/butonresim"
+        android:text="Saatler"
+        android:textSize="40sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnSaatTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnSaatler"
+        android:layout_marginRight="157dp"
+        android:layout_marginTop="43dp"
+        android:background="@drawable/butonresim"
+        android:text="Saatler Test"
+        android:textSize="40sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/btnSaatGeriGel"
+         android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" 
+        android:background="@drawable/backk"/>
+
+</RelativeLayout>

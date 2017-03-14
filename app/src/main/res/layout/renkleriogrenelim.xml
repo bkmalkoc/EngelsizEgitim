@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/adethesaplaarka"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnBeyaz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnSari"
+        android:layout_alignBottom="@+id/btnSari"
+        android:layout_marginLeft="49dp"
+        android:layout_toRightOf="@+id/btnSari"
+        android:text="@string/btnRenk"
+        android:background="@drawable/beyaz" />
+
+    <Button
+        android:id="@+id/btnSari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/sari"
+        android:text="@string/btnRenk" />
+
+    <Button
+        android:id="@+id/btnKirmizi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnBeyaz"
+        android:layout_below="@+id/btnBeyaz"
+        android:background="@drawable/kirmizi"
+        android:text="@string/btnRenk" />
+
+    <Button
+        android:id="@+id/btnYesil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnSiyah"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/yesil"
+        android:text="@string/btnRenk" />
+
+    <Button
+        android:id="@+id/btnLarcivert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnKirmizi"
+        android:layout_centerVertical="true"
+        android:background="@drawable/larcivert"
+        android:text="@string/btnRenk" />
+
+    <Button
+        android:id="@+id/btnTuruncu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/btnBeyaz"
+        android:background="@drawable/turuncu"
+        android:text="@string/btnRenk" />
+
+    <Button
+        android:id="@+id/btnMavi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnKirmizi"
+        android:layout_alignBottom="@+id/btnKirmizi"
+        android:layout_toLeftOf="@+id/btnBeyaz"
+        android:background="@drawable/mavi"
+        android:text="@string/btnRenk" />
+
+    <Button
+        android:id="@+id/btnGri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnLarcivert"
+        android:layout_alignBottom="@+id/btnLarcivert"
+        android:layout_toLeftOf="@+id/btnBeyaz"
+        android:background="@drawable/gri"
+        android:text="@string/btnRenk" />
+
+    <Button
+        android:id="@+id/btnPembe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnGri"
+        android:layout_marginTop="23dp"
+        android:layout_toLeftOf="@+id/btnBeyaz"
+        android:background="@drawable/pembe"
+        android:text="@string/btnRenk" />
+
+    <Button
+        android:id="@+id/btnSiyah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnPembe"
+        android:layout_alignBottom="@+id/btnPembe"
+        android:layout_alignLeft="@+id/btnLarcivert"
+        android:background="@drawable/siyah"
+        android:text="@string/btnRenk" />
+
+    <Button
+        android:id="@+id/resimOgrenGeri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/backk"
+        android:text="@string/txtBos" />
+
+    <ImageView
+        android:id="@+id/ivsayi1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/resimOgrenGeri"
+        android:src="@drawable/resimleritut" />
+
+</RelativeLayout>

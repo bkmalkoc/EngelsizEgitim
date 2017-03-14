@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/saatarka" >
+
+    <Button
+        android:id="@+id/btnSaatTestGeri"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/backk" />
+
+    <ImageView
+        android:id="@+id/ivsaattest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="117dp"
+        android:src="@drawable/saat1" />
+
+    <Button
+        android:id="@+id/btnsaat3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/ivsaattest"
+        android:layout_alignLeft="@+id/btnsaat4"
+        android:background="@drawable/butonsaatarka" />
+
+    <Button
+        android:id="@+id/btnsaat1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnsaat3"
+        android:layout_alignBottom="@+id/btnsaat3"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/butonsaatarka" />
+
+    <Button
+        android:id="@+id/btnsaat2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnsaat1"
+        android:layout_alignTop="@+id/ivsaattest"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/butonsaatarka" />
+
+    <Button
+        android:id="@+id/btnsaat4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnsaat2"
+        android:layout_alignBottom="@+id/btnsaat2"
+        android:layout_marginRight="55dp"
+        android:layout_toLeftOf="@+id/btnSaatTestGeri"
+        android:background="@drawable/butonsaatarka" />
+
+</RelativeLayout>

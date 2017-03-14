@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/anaekranarkaplan" >
+
+       <EditText
+            android:id="@+id/etGirisKullaniciAdi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/etGirisSifre"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="51dp"
+            android:ems="10"
+            android:inputType="textPersonName" />
+        
+        <requestFocus />
+        <EditText
+            android:id="@+id/etGirisSifre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/etGirisKullaniciAdi"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+ 
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="48dp"
+            android:layout_toLeftOf="@+id/etGirisSifre"
+            android:text="@string/txtSifre"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/etGirisKullaniciAdi"
+            android:layout_alignRight="@+id/textView2"
+            android:text="@string/txtKullaniciAdi"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/btnGiris"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/etGirisSifre"
+            android:layout_alignRight="@+id/etGirisSifre"
+            android:layout_below="@+id/etGirisSifre"
+            android:layout_marginTop="34dp"
+            android:text="Giriş" />
+    
+</RelativeLayout>

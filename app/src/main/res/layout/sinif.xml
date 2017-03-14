@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageSinif"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/sinif" />
+
+    <ImageView
+        android:id="@+id/imageAnimasyon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@anim/anims"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:id="@+id/soruliste"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:visibility="invisible" >
+
+        <TextView
+            android:id="@+id/sestext"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/sol"
+            android:gravity="center"
+            android:onClick="onClick" />
+
+        <TextView
+            android:id="@+id/sestext2"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/sag"
+            android:gravity="center"
+            android:onClick="onClick" />
+        
+        <TextView
+            android:id="@+id/sestext3"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/solust"
+            android:gravity="center"
+            android:onClick="onClick" />
+        
+         <TextView
+            android:id="@+id/sestext4"
+            android:layout_width="175dp"
+            android:layout_height="175dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/sagust"
+            android:gravity="center"
+            android:onClick="onClick" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

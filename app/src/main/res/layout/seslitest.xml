@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/adethesaplaarka"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/sesSayi3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="74dp"
+        android:layout_toLeftOf="@+id/imageView4"
+        />
+
+    <Button
+        android:id="@+id/btnSesliTestGeri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/txtBos" 
+        android:background="@drawable/backk"/>
+
+    <Button
+        android:id="@+id/btnSesTekrar"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/txtBos"
+        android:background="@drawable/yenile" />
+
+    <ImageView
+        android:id="@+id/sesSayi4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+
+    <ImageView
+        android:id="@+id/sesSayi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="103dp"
+        android:layout_toLeftOf="@+id/sesSayi4"
+        />
+
+    <ImageView
+        android:id="@+id/imMeyveler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+      />
+
+    <ImageView
+        android:id="@+id/sesSayi1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/sesSayi3"
+        android:layout_marginLeft="100dp" />
+
+    <ImageView
+        android:id="@+id/imMeyvelerYazi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSesTekrar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="88dp"
+       />
+
+</RelativeLayout>

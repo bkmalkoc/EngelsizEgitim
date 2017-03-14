@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lytResimli"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/imageWc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/bathroom" />
+   
+    <ImageView
+        android:id="@+id/imageAnimasyon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@anim/anims"
+        android:visibility="invisible" />
+   
+     <ImageView
+        android:id="@+id/resim1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+         android:scaleType="fitXY"
+       	android:visibility="invisible" />
+
+      <ImageView
+          android:id="@+id/resim2"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentRight="true"
+          android:layout_alignParentTop="true"
+          android:scaleType="fitXY"
+          android:visibility="invisible" />
+
+      <ToggleButton
+          android:id="@+id/tggleYoutube"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_alignParentTop="true"
+          android:checked="false"
+          android:textOn="@string/bos"
+          android:textOff="@string/bos"
+          android:background="@drawable/videoplay"/>
+
+        <!--<com.google.android.youtube.player.YouTubePlayerView-->
+            <!--android:id="@+id/youtube_lavabo"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_margin="12dip"-->
+            <!--android:layout_toLeftOf="@+id/tggleYoutube"-->
+            <!--android:visibility="invisible" >-->
+
+        <!--</com.google.android.youtube.player.YouTubePlayerView>-->
+      
+</RelativeLayout>

@@ -1,0 +1,151 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.karbur.bitirmeprojesi">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <activity
+            android:name="com.karbur.bitirmeprojesi.SplashEkrani"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.karbur.bitirmeprojesi.EgitselAnaEkran"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.karbur.bitirmeprojesi.KullaniciGirisi"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.karbur.bitirmeprojesi.GirisSayfasi"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.karbur.bitirmeprojesi.matematik.SayilarEkrani"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.karbur.bitirmeprojesi.Fotograf"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.karbur.bitirmeprojesi.egitsel.MatematikKategorileri"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.karbur.bitirmeprojesi.AnaEkran"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.karbur.bitirmeprojesi.matematik.EnbuyukSayiBul"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.karbur.bitirmeprojesi.matematik.AdetHesapla"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.karbur.bitirmeprojesi.matematik.BasitMatematikIslemleri"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.karbur.bitirmeprojesi.matematik.SayilariSeslendirme"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.karbur.bitirmeprojesi.egitsel.Harfler"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.karbur.bitirmeprojesi.harfler.SesliTest"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.karbur.bitirmeprojesi.harfler.HarfleriTaniyalim"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.karbur.bitirmeprojesi.harfler.BuyukHarfler"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.karbur.bitirmeprojesi.harfler.KucukHarfler"
+            android:screenOrientation="landscape" >
+        </activity>
+        <!--<activity-->
+            <!--android:name="com.karbur.bitirmeprojesi.harfler.BuyukKucukTest"-->
+            <!--android:screenOrientation="landscape" >-->
+        <!--</activity>-->
+        <activity
+            android:name="com.karbur.bitirmeprojesi.renkler.RenkleriOgrenelim"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.karbur.bitirmeprojesi.egitsel.RenklerKatalogu"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.karbur.bitirmeprojesi.renkler.RenklerTest"
+            android:screenOrientation="landscape" >
+        </activity>
+        <!--<activity-->
+            <!--android:name="com.karbur.bitirmeprojesi.matematik.MatematikBasitIslemler"-->
+            <!--android:screenOrientation="landscape" >-->
+        <!--</activity>-->
+        <activity
+            android:name="com.karbur.bitirmeprojesi.sosyal.Koridor"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.karbur.bitirmeprojesi.sosyal.Lavabo"
+            android:screenOrientation="landscape" >
+        </activity>
+        <!--<activity-->
+            <!--android:name="com.karbur.bitirmeprojesi.sosyal.Sokak"-->
+            <!--android:screenOrientation="landscape" >-->
+        <!--</activity>-->
+        <activity
+            android:name="com.karbur.bitirmeprojesi.sosyal.Sinif"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.karbur.bitirmeprojesi.sosyal.Market"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.karbur.bitirmeprojesi.saatler.SaatlerOgrenelim"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.karbur.bitirmeprojesi.saatler.SaatlerTest"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.karbur.bitirmeprojesi.SosyalAnaEkran"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.karbur.bitirmeprojesi.egitsel.SaatlerAnaEkran"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity android:name="com.karbur.bitirmeprojesi.memorygame.Manager" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/adethesaplaarka"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnUcuncuDeger"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnIkinciDeger"
+        android:layout_below="@+id/btnIkinciDeger"
+        android:layout_marginTop="35dp"
+        android:layout_toLeftOf="@+id/btnResimTestGeri"
+        android:background="@drawable/butonsaatarka"
+        android:text="@string/btnRenk"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <ImageView
+        android:id="@+id/ivsayi1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/arkasiyah2"
+        android:textSize="40sp"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btnDorduncuDeger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnUcuncuDeger"
+        android:layout_alignRight="@+id/btnUcuncuDeger"
+        android:layout_below="@+id/btnUcuncuDeger"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/butonsaatarka"
+        android:text="@string/btnRenk"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btnResimTestGeri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/backk"
+        android:text="@string/txtBos" />
+
+    <Button
+        android:id="@+id/btnIkinciDeger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnIlkDeger"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/btnResimTestGeri"
+        android:background="@drawable/butonsaatarka"
+        android:text="@string/btnRenk"
+        android:textSize="40sp"
+        android:textStyle="italic|bold"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btnIlkDeger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnResimTestGeri"
+        android:layout_marginLeft="76dp"
+        android:layout_toLeftOf="@+id/btnResimTestGeri"
+        android:layout_toRightOf="@+id/ivsayi1"
+        android:background="@drawable/butonsaatarka"
+        android:text="@string/btnRenk"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+</RelativeLayout>

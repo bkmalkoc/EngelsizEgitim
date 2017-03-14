@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:background="@drawable/adethesaplaarka"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+
+    <ImageView
+        android:id="@+id/testbuyuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/buyukKucukGeri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" 
+        android:background="@drawable/backk"/>
+
+        <ImageView
+            android:id="@+id/testkucuk3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/testbuyuk"
+            android:layout_alignTop="@+id/testkucuk2" />
+
+        <ImageView
+            android:id="@+id/testkucuk2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/testkucuk1"
+            android:layout_marginRight="106dp"
+            android:layout_toLeftOf="@+id/testkucuk3" />
+
+        <ImageView
+            android:id="@+id/testkucuk4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/testkucuk3"
+            android:layout_marginRight="51dp"
+            android:layout_toLeftOf="@+id/buyukKucukGeri"/>
+
+        <ImageView
+            android:id="@+id/testkucuk1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="105dp"
+            android:layout_marginRight="73dp"
+            android:layout_toLeftOf="@+id/testkucuk2"/>
+
+</RelativeLayout>

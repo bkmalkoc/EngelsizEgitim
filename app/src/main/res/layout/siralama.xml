@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/adethesaplaarka"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnSiralmaGeri"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/backk" />
+
+    <ImageView
+        android:id="@+id/agac2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/agac3"
+        android:layout_toRightOf="@+id/agac3" />
+
+    <ImageView
+        android:id="@+id/agac1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="44dp" />
+
+    <ImageView
+        android:id="@+id/sayi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/agac1"
+        android:layout_marginRight="92dp" />
+
+    <ImageView
+        android:id="@+id/agac3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/agac1"
+        android:layout_toRightOf="@+id/agac1" />
+
+    <ImageView
+        android:id="@+id/sayi1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/agac3"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="101dp" />
+
+    <ImageView
+        android:id="@+id/sayi3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="141dp"
+        android:layout_toLeftOf="@+id/btnSiralmaGeri"
+       />
+
+</RelativeLayout>

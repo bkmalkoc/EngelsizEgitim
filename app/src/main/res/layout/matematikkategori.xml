@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/alfabearka"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnMatematikKategoriGeri"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/backk"  />
+
+    <Button
+        android:id="@+id/btnSayiOgren"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/butonresim"
+        android:text="@string/btnSayiSayma"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btnSayiSiralama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnBalonSayisiBulma"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/butonresim"
+        android:text="@string/btnEnBuyukSayi"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btnSayilariSoyleyelim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnSayiOgren"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/butonresim"
+        android:text="@string/btnSayilariSoyle"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btnBalonSayisiBulma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/btnSayiSiralama"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="73dp"
+        android:background="@drawable/butonresim"
+        android:text="@string/btnAdetKavrami"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btnSayiIslemleri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSayiSiralama"
+        android:layout_marginRight="87dp"
+        android:layout_marginTop="23dp"
+        android:layout_toLeftOf="@+id/btnMatematikKategoriGeri"
+        android:background="@drawable/butonresim"
+        android:text="@string/btnSayiIslemleri"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+</RelativeLayout>

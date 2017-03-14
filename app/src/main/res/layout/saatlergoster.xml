@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/adethesaplaarka"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/clock"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/clock"
+                android:padding="50dp"
+                android:paddingBottom="10dp"
+                android:src="@drawable/clock" />
+
+            <ImageView
+                android:id="@+id/clock_hand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignTop="@+id/clock"
+                android:contentDescription="@string/hour2"
+                android:padding="100dp"
+                android:src="@drawable/clock_hand" />
+
+            <ImageView
+                android:id="@+id/hour_hand"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignTop="@+id/clock"
+                android:contentDescription="@string/hour"
+                android:padding="100dp"
+                android:src="@drawable/hour_hand" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button3"
+            android:layout_below="@+id/button3"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/butonsaatarka"
+            android:text="5"
+            android:textSize="40sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button7"
+            android:layout_alignBottom="@+id/button7"
+            android:layout_alignLeft="@+id/button6"
+            android:background="@drawable/butonsaatarka"
+            android:text="8"
+            android:textSize="40sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button7"
+            android:layout_below="@+id/button7"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/butonsaatarka"
+            android:text="9"
+            android:textSize="40sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button9"
+            android:layout_alignBottom="@+id/button9"
+            android:layout_alignLeft="@+id/button8"
+            android:background="@drawable/butonsaatarka"
+            android:text="10"
+            android:textSize="40sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button9"
+            android:layout_below="@+id/button9"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/butonsaatarka"
+            android:text="11"
+            android:textSize="40sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button11"
+            android:layout_alignBottom="@+id/button11"
+            android:layout_alignLeft="@+id/button10"
+            android:background="@drawable/butonsaatarka"
+            android:text="12"
+            android:textSize="40sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button5"
+            android:layout_alignBottom="@+id/button5"
+            android:layout_alignLeft="@+id/button4"
+            android:background="@drawable/butonsaatarka"
+            android:text="6"
+            android:textSize="40sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button3"
+            android:layout_alignBottom="@+id/button3"
+            android:layout_alignLeft="@+id/button2"
+            android:background="@drawable/butonsaatarka"
+            android:text="4"
+            android:textSize="40sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/btnSaatGeri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/backk"
+            android:text="@string/txtBos" />
+
+        <Button
+            android:id="@+id/btnSesHarf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btnSaatGeri"
+            android:layout_alignBottom="@+id/btnSaatGeri"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/butonsaatarka"
+            android:text="1"
+            android:textSize="40sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnSesHarf"
+            android:layout_below="@+id/btnSaatGeri"
+            android:background="@drawable/butonsaatarka"
+            android:text="3"
+            android:textSize="40sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/button5"
+            android:layout_below="@+id/button5"
+            android:layout_marginTop="27dp"
+            android:background="@drawable/butonsaatarka"
+            android:text="7"
+            android:textSize="40sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btnSaatGeri"
+            android:layout_alignBottom="@+id/btnSaatGeri"
+            android:layout_marginRight="48dp"
+            android:layout_toLeftOf="@+id/btnSaatGeri"
+            android:background="@drawable/butonsaatarka"
+            android:text="2"
+            android:textSize="40sp"
+            android:textStyle="italic" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

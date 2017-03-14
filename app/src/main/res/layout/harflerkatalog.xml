@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/alfabearka" >
+
+    <Button
+        android:id="@+id/btnharfgeri"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/backk" />
+
+    <Button
+        android:id="@+id/btnharfbuyukgiris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnharfgeri"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="26dp"
+        android:background="@drawable/butonresim"
+        android:text="@string/harfbtnbuyuk"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btnharflerTanima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnharfkucukgiris"
+        android:layout_marginTop="47dp"
+        android:layout_toLeftOf="@+id/btnharfgeri"
+        android:background="@drawable/butonresim"
+        android:text="@string/harftanitimi"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btnharfkucukgiris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnharfbuyukgiris"
+        android:layout_below="@+id/btnharfbuyukgiris"
+        android:layout_marginLeft="149dp"
+        android:layout_marginTop="41dp"
+        android:background="@drawable/butonresim"
+        android:text="@string/harfbtnkucuk"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btnSesHarf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnharflerTanima"
+        android:layout_marginRight="26dp"
+        android:layout_marginTop="39dp"
+        android:background="@drawable/butonresim"
+        android:text="@string/btnSeslerAlfabe"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btnBuyukKucuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/btnSesHarf"
+        android:layout_below="@+id/btnSesHarf"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/butonresim"
+        android:text="HARF TEST"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+</RelativeLayout>

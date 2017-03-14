@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/renklerarkasi"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/imgProfilResmi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/foto2" />
+
+    <Button
+        android:id="@+id/btnSosyalEgitim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnEgitselGiris"
+        android:layout_marginRight="92dp"
+        android:layout_toLeftOf="@+id/imgProfilResmi"
+        android:background="@drawable/yenisi"
+        android:text="@string/btnSosyal"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/btnEgitselGiris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgProfilResmi"
+        android:layout_marginTop="52dp"
+        android:layout_toLeftOf="@+id/btnSosyalEgitim"
+        android:background="@drawable/onceki"
+        android:text="@string/btnEgitsel"
+        android:textSize="40dp" />
+
+</RelativeLayout>

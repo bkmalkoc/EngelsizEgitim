@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  	android:background="@drawable/adethesaplaarka"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnAdetHesaplaGeri"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/backk"  />
+    
+    <GridView
+        android:id="@+id/gridView1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnSayi3"
+        android:layout_alignLeft="@+id/btnsayi1"
+        android:layout_below="@+id/btnAdetHesaplaGeri"
+        android:layout_toLeftOf="@+id/btnAdetHesaplaGeri"
+        android:layout_weight="0.81"
+        android:columnWidth="60dp"
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:layoutAnimation="@anim/layout_grid_fade"
+        android:numColumns="auto_fit"
+        android:padding="10dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp" >
+
+    </GridView>
+
+    <Button
+        android:id="@+id/btnSayi2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnsayi1"
+        android:layout_alignBottom="@+id/btnsayi1"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/adetbuton"
+        android:text="@string/sayi2"
+        android:textSize="50sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btnsayi1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="37dp"
+        android:layout_marginLeft="117dp"
+        android:background="@drawable/adetbuton"
+        android:text="@string/sayi1"
+        android:textSize="50sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/btnSayi3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnSayi2"
+        android:layout_alignBottom="@+id/btnSayi2"
+        android:layout_alignRight="@+id/gridView1"
+        android:layout_marginRight="35dp"
+        android:background="@drawable/adetbuton"
+        android:text="@string/sayi3"
+        android:textSize="50sp"
+        android:textStyle="bold|italic"
+        android:typeface="serif" />
+
+</RelativeLayout>
